@@ -39,7 +39,7 @@ while True:
 
             places.append([title, address, phone, rating])
 
-            start += 20
+        start += 20
 
     except KeyError:
         break
