@@ -10,7 +10,7 @@ api_key = os.getenv('API_KEY')
 places = []
 start = 0
 
-your_address = input("What's yours address(Street and City)? ")
+your_address = input("What's your address (street and city)? ")
 search = input('What do you like to search? ')
 
 geolocator = Nominatim(user_agent='ny_explorer')
